@@ -1,1 +1,1 @@
-# Digital-Humanities
+# Digital-Humanities and PhD
