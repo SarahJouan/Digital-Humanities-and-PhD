@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="chronique_salon_1824">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Chronique du Salon de 1824</title>
+        <author>Anonyme</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus de démonstration</publisher>
+        <date when="2026">2026</date>
+        <idno type="demo">DEMO-002</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Journal des artistes</title>, <date when="1824-09">septembre 1824</date>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage><language ident="fr">français</language></langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="article">
+        <head>Le Salon de 1824</head>
+        <p>Le <rs type="event">Salon de 1824</rs> s'est ouvert au
+        <orgName>Musée royal</orgName> dans une affluence considérable. Le public
+        se presse devant les <title>Scènes des massacres de Scio</title>, que
+        M. Delacroix a envoyées de son atelier de la rue de Grenelle.</p>
+        <p>M. <persName>Gros</persName>, dont l'autorité à l'<orgName>Institut</orgName>
+        demeure entière, s'est montré sévère. M. Delacroix, dit-on, en a été
+        affecté. Les partisans de <persName>Ingres</persName> triomphent, mais la
+        jeunesse qui revient d'<placeName>Italie</placeName> pense autrement.</p>
+        <p>On remarquera encore les paysages envoyés de <placeName>Londres</placeName>
+        par <persName>Constable</persName>, dont la manière a surpris. Le jury,
+        réuni le 12 août, leur a décerné une médaille d'or. Delacroix, nous
+        assure-t-on, est retourné trois fois les étudier.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

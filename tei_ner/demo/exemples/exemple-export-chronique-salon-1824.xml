@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="chronique_salon_1824">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Chronique du Salon de 1824</title>
+        <author>Anonyme</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus de démonstration</publisher>
+        <date when="2026">2026</date>
+        <idno type="demo">DEMO-002</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Journal des artistes</title>, <date when="1824-09">septembre 1824</date>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc><appInfo><application ident="annotation-tei-ner" version="1.0"><label>Application d'annotation et de gestion des entités nommées</label><desc>Les entités nommées sont référencées par l'attribut @ref pointant vers un identifiant du référentiel déclaré dans &lt;standOff&gt;. Les annotations qui ne peuvent pas être insérées en ligne (chevauchement ou mention traversant plusieurs éléments) sont déportées dans &lt;standOff&gt;&lt;listAnnotation&gt; sous forme de &lt;span&gt; dont @target utilise le schéma de pointeur « char=début,fin ». Les positions sont des indices de points de code Unicode (normalisation NFC) dans le texte brut obtenu par parcours en ordre documentaire de &lt;text&gt;, avec réduction des espaces consécutifs. Mode d'export utilisé : mixte.</desc></application></appInfo></encodingDesc><profileDesc>
+      <langUsage><language ident="fr">français</language></langUsage>
+    </profileDesc>
+  </teiHeader>
+  <standOff><list type="EVENT"><item xml:id="EVENT_0001" type="EVENT" subtype="a_verifier"><name type="canonical">Salon de 1824</name><note type="description">Exposition au Musée royal</note></item></list><listPerson><person xml:id="PERSON_0001" type="PERSON" subtype="validee"><persName type="canonical">Eugène Delacroix</persName><persName type="variant">Delacroix</persName><persName type="variant">M. Delacroix</persName><persName type="variant">Eug. Delacroix</persName><note type="description">Peintre français (1798-1863)</note><bibl>Correspondance générale</bibl></person><person xml:id="PERSON_0003" type="PERSON" subtype="validee"><persName type="canonical">Jean-Auguste-Dominique Ingres</persName><persName type="variant">Ingres</persName><note type="description">Peintre</note></person></listPerson></standOff><text>
+    <body>
+      <div type="article">
+        <head>Le <rs type="event" ref="#EVENT_0001">Salon de 1824</rs></head>
+        <p>Le <rs type="event" ref="#EVENT_0001">Salon de 1824</rs> s'est ouvert au
+        <orgName cert="low">Musée royal</orgName> dans une affluence considérable. Le public
+        se presse devant les <title cert="low">Scènes des massacres de Scio</title>, que
+        M. <persName ref="#PERSON_0001">Delacroix</persName> a envoyées de son atelier de la rue de Grenelle.</p>
+        <p>M. <persName cert="low">Gros</persName>, dont l'autorité à l'<orgName cert="low">Institut</orgName>
+        demeure entière, s'est montré sévère. M. <persName ref="#PERSON_0001">Delacroix</persName>, dit-on, en a été
+        affecté. Les partisans de <persName ref="#PERSON_0003">Ingres</persName> triomphent, mais la
+        jeunesse qui revient d'<placeName cert="low">Italie</placeName> pense autrement.</p>
+        <p>On remarquera encore les paysages envoyés de <placeName cert="low">Londres</placeName>
+        par <persName cert="low">Constable</persName>, dont la manière a surpris. Le jury,
+        réuni le 12 août, leur a décerné une médaille d'or. <persName ref="#PERSON_0001">Delacroix</persName>, nous
+        assure-t-on, est retourné trois fois les étudier.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

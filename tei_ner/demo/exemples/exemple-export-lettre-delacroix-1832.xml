@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lettre_delacroix_1832">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d'Eugène Delacroix à Jean-Baptiste Pierret, Tanger, 1832</title>
+        <author>Eugène Delacroix</author>
+        <respStmt>
+          <resp>Encodage TEI</resp>
+          <name>Atelier d'humanités numériques</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus de démonstration</publisher>
+        <date when="2026">2026</date>
+        <idno type="demo">DEMO-001</idno>
+        <availability status="free"><p>Texte de démonstration, librement réutilisable.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Correspondance générale</title>, Paris, <date when="1832-04">avril 1832</date>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc><appInfo><application ident="annotation-tei-ner" version="1.0"><label>Application d'annotation et de gestion des entités nommées</label><desc>Les entités nommées sont référencées par l'attribut @ref pointant vers un identifiant du référentiel déclaré dans &lt;standOff&gt;. Les annotations qui ne peuvent pas être insérées en ligne (chevauchement ou mention traversant plusieurs éléments) sont déportées dans &lt;standOff&gt;&lt;listAnnotation&gt; sous forme de &lt;span&gt; dont @target utilise le schéma de pointeur « char=début,fin ». Les positions sont des indices de points de code Unicode (normalisation NFC) dans le texte brut obtenu par parcours en ordre documentaire de &lt;text&gt;, avec réduction des espaces consécutifs. Mode d'export utilisé : mixte.</desc></application></appInfo></encodingDesc><profileDesc>
+      <langUsage><language ident="fr">français</language></langUsage>
+    </profileDesc>
+  </teiHeader>
+  <standOff><listOrg><org xml:id="ORG_0001" type="ORG" subtype="a_verifier"><orgName type="canonical">École des beaux-arts</orgName><orgName type="variant">Beaux-Arts</orgName><note type="description">École parisienne</note></org></listOrg><listPerson><person xml:id="PERSON_0001" type="PERSON" subtype="validee"><persName type="canonical">Eugène Delacroix</persName><persName type="variant">Delacroix</persName><persName type="variant">M. Delacroix</persName><persName type="variant">Eug. Delacroix</persName><note type="description">Peintre français (1798-1863)</note><bibl>Correspondance générale</bibl></person><person xml:id="PERSON_0002" type="PERSON" subtype="a_verifier"><persName type="canonical">Charles de Mornay</persName><persName type="variant">Mornay</persName><persName type="variant">comte de Mornay</persName><note type="description">Diplomate</note></person></listPerson><listPlace><place xml:id="PLACE_0001" type="PLACE" subtype="validee"><placeName type="canonical">Tanger</placeName><placeName type="variant">Tandja</placeName><note type="description">Ville du Maroc</note></place></listPlace><list type="WORK"><item xml:id="WORK_0001" type="WORK" subtype="validee"><name type="canonical">La Mort de Sardanapale</name><name type="variant">Sardanapale</name><note type="description">Tableau de Delacroix, 1827</note></item></list><listAnnotation type="named-entities"><span type="PLACE" target="#char=60,66" from="#char=60" to="#char=66" ana="#PLACE_0001" subtype="validee" resp="application">Tanger</span></listAnnotation></standOff><text>
+    <body>
+      <div type="letter">
+        <opener>
+          <dateline><placeName ref="#PLACE_0001">Tanger</placeName>, le 25 avril 1832</dateline>
+          <salute>Mon cher Pierret,</salute>
+        </opener>
+        <p>Je suis arrivé à <placeName ref="#tanger">Tanger</placeName> après une
+        traversée pénible depuis <placeName cert="low">Toulon</placeName>. Le comte de
+        <persName ref="#PERSON_0002">Mornay</persName>, chargé de la mission auprès du sultan, m'a
+        permis de l'accompagner. Nous avons été reçus hier par le pacha.</p>
+        <p>La lumière ici est d'une violence que ni <persName cert="low">Rubens</persName> ni
+        <persName cert="low">Véronèse</persName> n'auraient osé peindre. J'ai rempli trois
+        carnets. Tout ce que j'avais appris à l'<orgName ref="#ORG_0001">École des beaux-arts</orgName>
+        me paraît soudain bien pâle.</p>
+        <p>Dites à <persName cert="low">Frédéric</persName> que je n'ai pas oublié sa commande.
+        Le tableau de <title ref="#WORK_0001">La Mort de Sardanapale</title> continue de faire
+        scandale à <placeName cert="low">Paris</placeName>, m'écrit-on ; je m'en console
+        volontiers sous ce ciel.</p>
+        <closer>
+          <salute>Tout à vous,</salute>
+          <signed><persName ref="#PERSON_0001">Eugène Delacroix</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

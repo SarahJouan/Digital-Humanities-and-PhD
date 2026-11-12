@@ -1,0 +1,8 @@
+# Application d'annotation et de gestion des entités nommées XML-TEI
+# Python 3.11 ou supérieur requis.
+
+streamlit>=1.34,<2
+lxml>=5.1
+pandas>=2.1
+openpyxl>=3.1      # lecture des fichiers Excel (.xlsx, .xlsm)
+pytest>=8.0        # tests automatisés

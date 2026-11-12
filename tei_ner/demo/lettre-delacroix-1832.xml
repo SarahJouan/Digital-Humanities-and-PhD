@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lettre_delacroix_1832">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d'Eugène Delacroix à Jean-Baptiste Pierret, Tanger, 1832</title>
+        <author>Eugène Delacroix</author>
+        <respStmt>
+          <resp>Encodage TEI</resp>
+          <name>Atelier d'humanités numériques</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus de démonstration</publisher>
+        <date when="2026">2026</date>
+        <idno type="demo">DEMO-001</idno>
+        <availability status="free"><p>Texte de démonstration, librement réutilisable.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Correspondance générale</title>, Paris, <date when="1832-04">avril 1832</date>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage><language ident="fr">français</language></langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <opener>
+          <dateline><placeName>Tanger</placeName>, le 25 avril 1832</dateline>
+          <salute>Mon cher Pierret,</salute>
+        </opener>
+        <p>Je suis arrivé à <placeName ref="#tanger">Tanger</placeName> après une
+        traversée pénible depuis <placeName>Toulon</placeName>. Le comte de
+        <persName>Mornay</persName>, chargé de la mission auprès du sultan, m'a
+        permis de l'accompagner. Nous avons été reçus hier par le pacha.</p>
+        <p>La lumière ici est d'une violence que ni <persName>Rubens</persName> ni
+        <persName>Véronèse</persName> n'auraient osé peindre. J'ai rempli trois
+        carnets. Tout ce que j'avais appris à l'<orgName>École des beaux-arts</orgName>
+        me paraît soudain bien pâle.</p>
+        <p>Dites à <persName>Frédéric</persName> que je n'ai pas oublié sa commande.
+        Le tableau de <title>La Mort de Sardanapale</title> continue de faire
+        scandale à <placeName>Paris</placeName>, m'écrit-on ; je m'en console
+        volontiers sous ce ciel.</p>
+        <closer>
+          <salute>Tout à vous,</salute>
+          <signed>Eugène Delacroix</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,7 @@
+# Thème de l'application (généré automatiquement, modifiable).
+[theme]
+base = "light"
+primaryColor = "#76382B"
+backgroundColor = "#F4EFE4"
+secondaryBackgroundColor = "#E8E0CF"
+textColor = "#2B2721"

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc><titleStmt><title>Fichier volontairement mal formé</title></titleStmt>
+  </fileDesc></teiHeader>
+  <text><body><p>Cette balise n'est pas fermée.</body></text>
+</TEI>

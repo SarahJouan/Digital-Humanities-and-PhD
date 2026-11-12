@@ -1,0 +1,195 @@
+{
+  "manifeste": {
+    "application": "Application d'annotation et de gestion des entités nommées XML-TEI",
+    "version_export": "1.0",
+    "date_export": "2026-11-03 15:08:11",
+    "portee": "toutes",
+    "convention_offsets": {
+      "unite": "point de code Unicode",
+      "normalisation": "NFC",
+      "intervalle": "semi-ouvert [start, end[",
+      "texte_de_reference": "texte brut obtenu par parcours en ordre documentaire de l'élément <text> du fichier TEI, espaces consécutifs réduits à une espace, éléments de bloc séparés par un saut de ligne"
+    },
+    "statuts_consideres_valides": [
+      "validee"
+    ],
+    "options": {
+      "avec_occurrences": true
+    }
+  },
+  "nb_entites": 8,
+  "entites": [
+    {
+      "entity_id": "EVENT_0001",
+      "entity_type": "EVENT",
+      "canonical_name": "Salon de 1824",
+      "variants": [
+        "Salon de 1824"
+      ],
+      "description": "Exposition au Musée royal",
+      "metadata": {
+        "Dates": "1824"
+      },
+      "sources": [],
+      "validation_status": "a_verifier",
+      "note": "",
+      "created_at": "2026-11-03 15:08:03",
+      "updated_at": "2026-11-03 15:08:03",
+      "nb_occurrences": 2,
+      "documents": [
+        1
+      ]
+    },
+    {
+      "entity_id": "ORG_0001",
+      "entity_type": "ORG",
+      "canonical_name": "École des beaux-arts",
+      "variants": [
+        "École des beaux-arts",
+        "Beaux-Arts"
+      ],
+      "description": "École parisienne",
+      "metadata": {},
+      "sources": [],
+      "validation_status": "a_verifier",
+      "note": "",
+      "created_at": "2026-11-03 15:08:03",
+      "updated_at": "2026-11-03 15:08:03",
+      "nb_occurrences": 1,
+      "documents": [
+        3
+      ]
+    },
+    {
+      "entity_id": "PERSON_0002",
+      "entity_type": "PERSON",
+      "canonical_name": "Charles de Mornay",
+      "variants": [
+        "Mornay",
+        "comte de Mornay",
+        "Charles de Mornay"
+      ],
+      "description": "Diplomate",
+      "metadata": {
+        "Dates": "1803-1878"
+      },
+      "sources": [],
+      "validation_status": "a_verifier",
+      "note": "",
+      "created_at": "2026-11-03 15:08:03",
+      "updated_at": "2026-11-03 15:08:03",
+      "nb_occurrences": 1,
+      "documents": [
+        3
+      ]
+    },
+    {
+      "entity_id": "PERSON_0001",
+      "entity_type": "PERSON",
+      "canonical_name": "Eugène Delacroix",
+      "variants": [
+        "Delacroix",
+        "M. Delacroix",
+        "Eug. Delacroix",
+        "Eugène Delacroix"
+      ],
+      "description": "Peintre français (1798-1863)",
+      "metadata": {
+        "Dates": "1798-1863"
+      },
+      "sources": [
+        "Correspondance générale"
+      ],
+      "validation_status": "validee",
+      "note": "",
+      "created_at": "2026-11-03 15:08:03",
+      "updated_at": "2026-11-03 15:08:03",
+      "nb_occurrences": 4,
+      "documents": [
+        1,
+        3
+      ]
+    },
+    {
+      "entity_id": "PERSON_0003",
+      "entity_type": "PERSON",
+      "canonical_name": "Jean-Auguste-Dominique Ingres",
+      "variants": [
+        "Ingres",
+        "Jean-Auguste-Dominique Ingres"
+      ],
+      "description": "Peintre",
+      "metadata": {
+        "Dates": "1780-1867"
+      },
+      "sources": [],
+      "validation_status": "validee",
+      "note": "",
+      "created_at": "2026-11-03 15:08:03",
+      "updated_at": "2026-11-03 15:08:03",
+      "nb_occurrences": 1,
+      "documents": [
+        1
+      ]
+    },
+    {
+      "entity_id": "PLACE_0002",
+      "entity_type": "PLACE",
+      "canonical_name": "Paris",
+      "variants": [
+        "Paris"
+      ],
+      "description": "Capitale de la France",
+      "metadata": {},
+      "sources": [],
+      "validation_status": "validee",
+      "note": "",
+      "created_at": "2026-11-03 15:08:03",
+      "updated_at": "2026-11-03 15:08:03",
+      "nb_occurrences": 0,
+      "documents": []
+    },
+    {
+      "entity_id": "PLACE_0001",
+      "entity_type": "PLACE",
+      "canonical_name": "Tanger",
+      "variants": [
+        "Tanger",
+        "Tandja"
+      ],
+      "description": "Ville du Maroc",
+      "metadata": {},
+      "sources": [],
+      "validation_status": "validee",
+      "note": "",
+      "created_at": "2026-11-03 15:08:03",
+      "updated_at": "2026-11-03 15:08:03",
+      "nb_occurrences": 2,
+      "documents": [
+        3
+      ]
+    },
+    {
+      "entity_id": "WORK_0001",
+      "entity_type": "WORK",
+      "canonical_name": "La Mort de Sardanapale",
+      "variants": [
+        "Sardanapale",
+        "La Mort de Sardanapale"
+      ],
+      "description": "Tableau de Delacroix, 1827",
+      "metadata": {
+        "Dates": "1827"
+      },
+      "sources": [],
+      "validation_status": "validee",
+      "note": "",
+      "created_at": "2026-11-03 15:08:03",
+      "updated_at": "2026-11-03 15:08:03",
+      "nb_occurrences": 1,
+      "documents": [
+        3
+      ]
+    }
+  ]
+}
